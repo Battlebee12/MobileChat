@@ -74,7 +74,7 @@ const styles = StyleSheet.create({
     paddingBottom: 100,
     paddingLeft: 24,
     paddingRight: 24,
-    backgroundColor: "#EFF4FF",
+    backgroundColor: "#000000", // Dark background
     height: "100%",
-  }
+  },
 });

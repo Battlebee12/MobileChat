@@ -63,17 +63,17 @@ const ChatListScreen = ({ navigation }) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "#000000", // Dark background
     paddingTop: "10%",
   },
   header: {
     height: 60,
-    backgroundColor: "grey",
+    backgroundColor: "#333333", // Dark header
     justifyContent: "center",
     alignItems: "center",
   },
   headerText: {
-    color: "#fff",
+    color: "#ffffff", // Light text color
     fontSize: 18,
     fontWeight: "bold",
     textAlign: "center",
@@ -83,7 +83,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     padding: 10,
     borderBottomWidth: 1,
-    borderBottomColor: "#ccc",
+    borderBottomColor: "#444444", // Darker border
   },
   chatAvatar: {
     width: 50,
@@ -97,10 +97,11 @@ const styles = StyleSheet.create({
   chatName: {
     fontSize: 16,
     fontWeight: "bold",
+    color: "#ffffff", // Light text color
   },
   chatLastMessage: {
     fontSize: 14,
-    color: "#999",
+    color: "#aaaaaa", // Lighter text color
   },
 });
 
