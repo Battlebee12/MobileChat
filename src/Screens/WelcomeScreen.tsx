@@ -37,7 +37,7 @@ export const WelcomeScreen = () => {
         <Text style={{
           fontWeight: "800",
           fontSize: 54
-        }}>Open Mind</Text>
+        }}>Mobile Chat</Text>
 
       </View>
 
